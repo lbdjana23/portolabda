@@ -1,0 +1,177 @@
+    body{
+        background-color: #4F4536; /* Warna latar belakang navbar */
+        margin: 0;
+        padding: 0;
+    }
+    /* Optional: Custom styling to make the navbar stand out */
+    .navbar {
+        background-color: #4F4536; /* Warna latar belakang navbar */
+    }
+    .navbarlabda{
+        font-weight: bold; /* Memberikan ketebalan pada teks logo */
+        font-size: 3rem; /* Ukuran font untuk logo atau brand */
+        color: #CBBCAE; /* Warna teks navbar menjadi putih */
+        align-items: center; /* Menyelaraskan konten secara vertikal */
+    }
+    .navbar-nav .nav-link{
+        font-weight: bold; /* Memberikan ketebalan pada teks logo */
+        font-size: 1.5rem; /* Ukuran font untuk logo atau brand */
+        color: #CBBCAE; /* Warna teks navbar menjadi putih */
+        align-items: center; /* Menyelaraskan konten secara vertikal */
+    }
+
+/* Styling untuk Hero Section */
+.hero-section {
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  
+  .hero-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Styling untuk teks dalam hero */
+  .hero-section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .hero-section h2 {
+    font-size: 2rem;
+    color: #CBBCAE;
+    margin-bottom: 20px;
+  }
+  
+  .hero-section p {
+    font-size: 1.2rem;
+    color: #dcdcdc;
+  }
+
+  #aboutlabda {
+    background-color: #4F4536;
+  }
+  #aboutlabda h2 {
+        font-size: 2rem;
+        color: #CBBCAE;
+        margin-bottom: 20px;
+   }
+   #aboutlabda p {
+    font-size: 1rem;
+    color: #EBEBEB; /* Warna teks */
+    margin-bottom: 10px; /* Margin bawah agar tidak terlalu padat */
+    text-align: justify; /* Menyelaraskan teks ke kiri dan kanan */
+    line-height: 1.6; /* Jarak antar baris agar lebih mudah dibaca */
+}
+
+#projectslabda{
+    background-color: #4F4536;
+}
+#projectslabda .card-body {
+    background-color: #CBBCAE;
+}
+
+
+#projectslabda .btnproject1 {
+    background-color: #4F4536; /* Warna teks */
+    color: #fff; /* Warna font putih */
+    border: 2px solid #CBBCAE; /* Border luar */
+    font-weight: bold; /* Font tebal */
+    padding: 10px 20px; /* Ukuran padding untuk tombol */
+    border-radius: 5px; /* Sudut tombol melengkung */
+    text-transform: uppercase; /* Menjadikan teks kapital */
+    transition: all 0.3s ease; /* Efek transisi saat hover */
+    font-size: 1rem; /* Ukuran font yang sesuai */
+    outline: none; /* Menghilangkan outline pada klik */  
+}
+
+#contact {
+    background-color: #4F4536; /* Warna latar belakang yang terang untuk kontras */
+    padding: 60px 0; /* Memberikan padding vertikal */
+  }
+  
+  #contact h2 {
+    font-size: 2rem; /* Ukuran font judul */
+    color: #CBBCAE; /* Warna teks judul */
+    font-weight: bold; /* Membuat judul tebal */
+    margin-bottom: 30px;
+  }
+  
+  #contact .form-label {
+    font-size: 1rem;
+    color: #CBBCAE;
+    font-weight: bold;
+  }
+  
+  #contact .form-control {
+    border: 2px solid #CBBCAE; /* Warna border untuk form input */
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1rem;
+  }
+  
+  #contact .form-control:focus {
+    border-color: #4F4536; /* Border berubah saat fokus */
+    box-shadow: 0 0 0 0.25rem rgba(79, 69, 54, 0.25); /* Bayangan border saat input fokus */
+  }
+  
+  #contact .btn-custom {
+    background-color: #4F4536; /* Warna tombol */
+    color: #fff; /* Warna teks tombol */
+    border: 2px solid #CBBCAE;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+  }
+  
+  #contact .btn-custom:hover {
+    background-color: #CBBCAE; /* Ganti warna tombol saat hover */
+    color: #4F4536;
+    border-color: #4F4536;
+  }
+  
+  @media (max-width: 768px) {
+    #contact .col-md-6 {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+  }
+  
+
+  footer {
+    background-color: #4F4536; /* Warna latar belakang footer */
+    color: white; /* Warna teks putih */
+    padding: 40px 0; /* Padding vertikal untuk memperbesar area footer */
+  }
+  
+  footer p {
+    margin-bottom: 15px; /* Memberikan jarak di bawah teks copyright */
+    font-size: 1.5rem; /* Ukuran font sedikit lebih besar */
+  }
+
+  .modalproject .modal-content{
+        background-color: #4F4536; /* Warna latar belakang footer */
+  }
+  .modalproject .modal-title {
+    font-size: 1.1rem;
+    color: #CBBCAE;
+    text-align: center;
+  }
+
+  /* Menata modal-body agar konten terpusat */
+.modal-body {
+  height: 400px; /* Menentukan tinggi modal-body */
+  justify-content: center;
+  align-items: center;
+}
+
